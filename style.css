@@ -28,9 +28,12 @@ main {
 #nome-sobrenome {
   display: flex;
 }
+
 #email-house {
   display: flex;
 }
 
-#house {
+#alinhamento {
+  display: flex;
+  flex-direction: column;
 }

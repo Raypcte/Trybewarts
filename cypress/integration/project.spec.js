@@ -212,7 +212,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe('12 - Acrescente ao formulário um campo de entrada para qual família a pessoa estudante se identifica', () => {
+  describe.only('12 - Acrescente ao formulário um campo de entrada para qual família a pessoa estudante se identifica', () => {
     it('Um elemento com o id "label-family" e o texto "Qual sua família?" deverá ser criado', () => {
       cy.get(`${EVALUATION_FORM} #label-family`)
         .should('have.text', LABEL_FAMILY_TEXT);
