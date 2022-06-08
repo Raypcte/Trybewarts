@@ -288,7 +288,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe.only('16 - Crie um campo de entrada do tipo `checkbox` com o id `agreement` para validar as informações', () => {
+  describe('16 - Crie um campo de entrada do tipo `checkbox` com o id `agreement` para validar as informações', () => {
     it('Uma label com o id "label-infos" deve possuir o texto "Você concorda com o uso das informações acima?"', () => {
       cy.get('label#label-infos')
         .should('exist')
@@ -301,7 +301,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe('17 - Crie um botão de Enviar para submeter o formulário', () => {
+  describe.only('17 - Crie um botão de Enviar para submeter o formulário', () => {
     it('Deve existir um botão com o id "submit-btn" e o texto "Enviar"', () => {
       cy.get('button#submit-btn[type="submit"]')
         .should('exist')
