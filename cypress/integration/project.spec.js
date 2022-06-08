@@ -309,7 +309,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe.only('18 - Faça com que o botão `Enviar` seja habilitado somente após a checkbox do requisito 16 ser selecionada', () => {
+  describe('18 - Faça com que o botão `Enviar` seja habilitado somente após a checkbox do requisito 16 ser selecionada', () => {
     it('O botão deve inicialmente estar desabilitado', () => {
       cy.get('button#submit-btn')
         .should('be.disabled');
@@ -324,7 +324,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe('19 - Crie um rodapé no final da página', () => {
+  describe.only('19 - Crie um rodapé no final da página', () => {
     it('O rodapé deve conter o texto "Direitos reservados à Trybewarts©"', () => {
       cy.get('footer')
         .should('exist')
