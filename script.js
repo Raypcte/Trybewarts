@@ -11,3 +11,16 @@ function clicarBotao(event) {
   }
 }
 botao.addEventListener('click', clicarBotao);
+
+const checkbox = document.querySelector('#agreement');
+
+function habilitar(event) {
+  const { checked } = event.target;
+  const pegarBotao = document.querySelector('#submit-btn');
+  if (checked === true) {
+    pegarBotao.disabled = false;
+  } else {
+    pegarBotao.disabled = true;
+  }
+}
+checkbox.addEventListener('click', habilitar);
