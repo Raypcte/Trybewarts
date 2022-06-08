@@ -37,3 +37,8 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+#alinhamento-2 {
+  display: flex;
+  flex-direction: column;
+}
