@@ -28,3 +28,9 @@ main {
 #nome-sobrenome {
   display: flex;
 }
+#email-house {
+  display: flex;
+}
+
+#house {
+}
