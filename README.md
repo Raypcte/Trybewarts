@@ -1,10 +1,20 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# README 
+
+- Você irá desenvolver o formulário para a Trybewarts.
+
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+# Tecnologias:
+
+- HTML
+- CSS
+- Javascript
+
+# Habilidades :
+
+- Criar formulários em HTML;
+- Utilizar CSS Flexbox para criar layouts flexíveis;
+- Criar regras CSS específicas para serem aplicadas a dispositivos móveis;
+- Construir páginas que alteram o seu layout de acordo com a orientação da tela;
+
